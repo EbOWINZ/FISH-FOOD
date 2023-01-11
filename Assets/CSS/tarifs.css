@@ -1,0 +1,154 @@
+@font-face{
+    font-family: "Opensans";
+    src: url('OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: "Slabo27px";
+    src: url('Slabo27px-Regular.ttf');
+}
+body{
+    background-image: url("../IMAGES/fond.png");
+    font-family: "Opensans";
+    margin-top: 100px;
+    font-size: 1em;
+}
+.container{
+    margin: auto;
+    min-width: 800px;
+}
+.logo{
+    width: 200px;
+    margin: auto;
+}
+.navbarre{
+    margin: auto;
+    width: 700px;
+    padding-bottom: 10px;
+}
+.tire{
+    display: inline;
+    font-size: 20px;
+    padding: 0 37px;
+}
+.navcolor{
+    background-color: #25B3B4;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+header a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+nav{
+    font-family: "Slabo27px";
+}
+
+main{
+    margin-top: 220px;
+}
+
+.main-text{
+    text-align: center;
+}
+
+.offre-title{
+    font-family: "Slabo27px";
+    font-size: 20px;
+}
+
+.main-title{
+    font-family: "Slabo27px";
+    color: teal;
+    font-size: 50px;
+}
+
+.descrip-title{
+    font-family: "Opensans";
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
+
+.container-tarif{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    /* height: 100vh  pour taille entière de l'écran */ 
+    /* justify-content: center; centrer horizontale
+    align-items: center;  centrer vertical */
+}
+
+.item-1 {
+    background-color: #fff;
+}
+
+.item-2 {
+    background: linear-gradient(rgb(156, 223, 241) 60%, white);
+}
+
+.item-1, .item-2 {
+    font-family: "Opensans";
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+    border-radius: 20px;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 5px teal ;
+}
+
+.site-title{
+    color: #4256d8;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.item-1 .cost-title {
+    color: gold;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.item-2 .cost-title {
+    color: rgb(66, 86, 216);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+i{
+    width: 60px;
+    height: 50px;
+    color: rgb(66, 86, 216);
+    font-size: 40px;
+    border: 2px solid;
+    border-radius: 80%;
+    padding-top: 10px;
+}
+
+.btn-tarifs{
+    font-family: "Slabo27px";
+    font-size: large;
+    margin-top: 1%;
+    background-color: #25B3B4;
+    color: white;
+    margin-right: 2%;
+    padding: 10px;
+    border: none;
+    transition-duration: 0.6s;
+    border-radius: 5px;
+}
+.btn-tarifs:hover{
+    color: #000000;
+    cursor: pointer;
+    background-color: goldenrod;
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+}
