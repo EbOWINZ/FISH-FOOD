@@ -198,20 +198,21 @@ aside img:hover {
     color: #ffffff; 
     font-size: 45px;
     text-align: center;
+    transition-duration: 0.6s;
 }
 .wtsp{
     background: #4dc247; 
     width: 60px; 
     height: 60px; 
     position: relative; 
-    cursor: pointer; 
-    transition: all 0.2s linear; 
+    cursor: pointer;
     border-radius: 60px; 
     box-shadow: 7px 7px 7px #000000b6;
+    transition-duration: 0.6s;
 }
 .iconwtsp:hover{
-    transform: scale(1.5) rotateZ(360deg);
-    transition-duration: 0.5s;
+    transform: scale(1.5);
+    transition-duration: 0.6s;
 }
 
 .iconfb{
@@ -221,10 +222,11 @@ aside img:hover {
     z-index: 100;
     color: #002fff;
     text-align: center;
+    transition-duration: 0.6s;
 }
 .fbook:hover{
-    transform: scale(1.5) rotateZ(360deg);
-    transition-duration: 0.5s;
+    transform: scale(1.5);
+    transition-duration: 0.6s;
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 50%;
@@ -236,7 +238,7 @@ aside img:hover {
     width: 60px; 
     height: 60px;  
     cursor: pointer; 
-    transition: all 0.2s linear; 
+    transition-duration: 0.6s;
     border-radius: 50%; 
     box-shadow: 7px 7px 7px #000000b6;
     text-align: center;
